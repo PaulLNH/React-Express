@@ -1,0 +1,28 @@
+{
+  "name": "react-express",
+  "version": "1.0.0",
+  "description": "Boilerplate for a new react app with express backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "concurrently \"cd server && npm run start\" \"cd client && npm run start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulLNH/React-Express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulLNH/React-Express/issues"
+  },
+  "homepage": "https://github.com/PaulLNH/React-Express#readme",
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}

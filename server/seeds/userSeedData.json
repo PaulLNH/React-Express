@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Dre",
+    "email": "compton@fakemail.com"
+  },
+  {
+    "id": 2,
+    "name": "Snoop Dogg",
+    "email": "dogpound@murderwasthecase.net"
+  },
+  {
+    "id": 3,
+    "name": "Martha Stewart",
+    "email": "martha@countyjail.gov"
+  }
+]
